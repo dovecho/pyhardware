@@ -1,3 +1,11 @@
+# adiNanoDAC
+# This file defines the module of a NanoDAC chip from Analog Device
+#
+# Further inheritance of this module is necessary to clarify DAC configurations and 
+# pin control methods
+
+# Shangyuan Li, 2020-01-11 10:01
+
 from abc import ABC, abstractmethod # Import for abstract method
 
 # --- Definition of control bits constants --- #
